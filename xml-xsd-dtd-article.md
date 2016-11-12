@@ -1,5 +1,7 @@
+# DTD and XSD - The XML side you didn’t now about
 
-## XML 1
+
+## document1.xml
 ```xml
 <?xml version="1.0"?>
 <school>
@@ -11,7 +13,7 @@
 ```
 
 
-## DTD 1
+## document2.dtd
 from http://www.w3schools.com/xml/xml_dtd_intro.asp
 ```dtd
 <!DOCTYPE note
@@ -23,7 +25,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 ]>
 ```
 
-## XML 2
+## document3.xml
 from http://www.w3schools.com/xml/xml_dtd_intro.asp
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,7 +38,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 </note>
 ```
 
-## XML 3
+## document4.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "note.dtd">
@@ -50,7 +52,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 ```
 
 
-## XSD 1
+## document5.xsd
 ```xsd
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
@@ -60,7 +62,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 ```
 
 
-## XSD 2
+## document6.xsd
 ```xsd
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
@@ -69,7 +71,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 </xsd:schema>
 ```
 
-## XSD 3
+## document7.xsd
 ```xsd
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
@@ -88,7 +90,7 @@ from http://www.w3schools.com/xml/xml_dtd_intro.asp
 </schema>
 ```
 
-## XML 4
+## document8.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Person xmlns="http://example1.xsd">
