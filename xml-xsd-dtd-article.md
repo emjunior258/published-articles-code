@@ -1,5 +1,5 @@
 
-## Code 1
+## XML 1
 ```xml
 <?xml version="1.0"?>
 <school>
@@ -11,7 +11,7 @@
 ```
 
 
-## Code 2
+## DTD 1
 ```dtd
 <!DOCTYPE note
 [<!ELEMENT note (to,from,heading,body)>
@@ -22,7 +22,7 @@
 ]>
 ```
 
-## Code 3
+## XML 2
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "note.dtd">
@@ -33,3 +33,67 @@
 	<body>Don't forget me this weekend!</body>
 </note>
 ```
+
+
+
+## XML 3
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "note.dtd">
+<note>
+	<to>Tove</to>
+	<origin>Jani</origin>
+	<heading>Reminder</heading>
+	<body>Don't forget me this weekend!</body>
+	<sender>Mario</sender>
+</note>
+```
+
+
+## XSD 1
+```xsd
+<?xml version="1.0"encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://yournamespane.comesHere.com/whateve">
+	<!--Elements and restrictions come here-->
+</schema>
+```
+
+
+## XSD 2
+```xsd
+<?xml version="1.0"encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://yournamespane.comesHere.com/whatever">
+	<!--Elements and restrictions come here-->
+</xsd:schema>
+```
+
+## XSD 3
+```xsd
+<?xml version="1.0"encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://example1.xsd"
+		xmlns:example="http://example1.xsd" elementFormDefault="qualified">
+
+	<complexType name="PersonType">
+		<all>
+			<element name="full-name" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="age" type="integer" minOccurs="1" maxOccurs="1"/>
+		</all>
+	</complexType>
+
+	<element name="Person" type="example:PersonType" nillable="false"/>
+
+</schema>
+```
+
+## XML 4
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Person xmlns="http://example1.xsd">
+	<age>23</age>
+	<full-name>MarioJ.F.Junior</full-name>
+</Person>
+```
+
