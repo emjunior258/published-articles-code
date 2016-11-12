@@ -11,7 +11,7 @@
 ```
 
 
-## DTD 1
+## DTD 1 (from [http://www.w3schools.com/xml/xml_dtd_intro.asp])
 ```dtd
 <!DOCTYPE note
 [<!ELEMENT note (to,from,heading,body)>
@@ -22,7 +22,7 @@
 ]>
 ```
 
-## XML 2
+## XML 2 (from [http://www.w3schools.com/xml/xml_dtd_intro.asp])
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note SYSTEM "note.dtd">
