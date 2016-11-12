@@ -52,7 +52,7 @@
 
 ## XSD 1
 ```xsd
-<?xml version="1.0"encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
 	targetNamespace="http://yournamespane.comesHere.com/whateve">
 	<!--Elements and restrictions come here-->
@@ -62,7 +62,7 @@
 
 ## XSD 2
 ```xsd
-<?xml version="1.0"encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
 	targetNamespace="http://yournamespane.comesHere.com/whatever">
 	<!--Elements and restrictions come here-->
@@ -71,7 +71,7 @@
 
 ## XSD 3
 ```xsd
-<?xml version="1.0"encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" 
 		targetNamespace="http://example1.xsd"
 		xmlns:example="http://example1.xsd" elementFormDefault="qualified">
